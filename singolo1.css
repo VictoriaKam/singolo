@@ -1,0 +1,163 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 527px 415px;
+    align-items: center;
+    padding-left: 41px;
+    padding-right: 37px;
+    background-color: #2d303a;
+    color: white;
+    border-bottom: 6px solid #323746;
+    height: 90px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 6px;
+    font-weight: 700;
+}
+
+.ref {
+    color: salmon;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+li {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    line-height: 6px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #f06c64;
+}
+
+.slider {
+    position: relative;
+    height: 585px;
+    width: 1020px;
+    background-color: #f06c64;
+    border-bottom: 15px solid #ea676b;
+}
+
+.cher {
+    position: absolute;
+    top: 48%;
+    left: 4%;
+}
+
+.iphone-ver {
+    position: absolute;
+    top: 52px;
+    left: 113px;
+}
+
+.iphone-hor {
+    position: absolute;
+    top: 173px;
+    right: 110px;
+}
+
+.cher_right {
+    position: absolute;
+    top: 48%;
+    right: 4%;
+}
+
+.cher,
+.cher_right:hover {
+    cursor: pointer;
+}
+
+.services {
+    color: #606885;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+    height: 495px;
+}
+
+.services_header {
+    padding: 45px 40px 13px 40px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+}
+
+.services p {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+}
+
+.services_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 16px;
+    padding-left: 42px;
+    padding-right: 34px;
+}
+
+.services_cell {
+    display: grid;
+    grid-template-columns: 60px 220px;
+    overflow: hidden;
+    grid-column-gap: 18px;
+    width: 100%;
+}
+
+.icons {
+    position: relative;
+    width: 60px;
+}
+
+.icons img {
+    position: absolute;
+    top: 19px;
+    width: 59px;
+    height: 59px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.services_content .services_cell p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+    width: 226px;
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
