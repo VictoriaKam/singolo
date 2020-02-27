@@ -1,0 +1,202 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.portfolio {
+    height: 774px;
+    background-color: #2d303a;
+    padding: 45px 39px;
+    border-bottom: 6px solid #323746;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    margin: 25px 0;
+}
+
+.portfolio p {
+    font-size: 17.5px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    height: 22px;
+    border-radius: 5px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
+    font-size: 11.5px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 9px;
+}
+
+button:hover {
+    color: #dedede;
+    border: 1px solid #dedede;
+}
+
+.projects_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+    grid-auto-flow: column;
+    overflow: hidden;
+}
+
+.projects_container div {
+    width: 220px;
+    height: 187px;
+}
+
+.project1 {
+    background-image: url('assets/project1.png');
+    background-position: 50% 20%;
+}
+
+.project2 {
+    background-image: url('assets/project2.png');
+    background-position: 40% 20%;
+}
+
+.project3 {
+    background-image: url('assets/project3.png');
+    background-position: 50% 0%;
+}
+
+.project4 {
+    background-image: url('assets/project4.png');
+    background-position: 57% 50%;
+}
+
+.project5 {
+    background-image: url('assets/project5.png');
+    background-position: 40% 10%;
+}
+
+.project6 {
+    background-image: url('assets/project6.png');
+    background-position: 56% 24%;
+}
+
+.project7 {
+    background-image: url('assets/project7.png');
+    background-position: 35% 0;
+}
+
+.project8 {
+    background-image: url('assets/project8.png');
+    background-position: 20% 20%;
+}
+
+.project9 {
+    background-image: url('assets/project9.png');
+    background-position: 74% 78%;
+}
+
+.project10 {
+    background-image: url('assets/project10.png');
+    background-position: 65% 20%;
+}
+
+.project11 {
+    background-image: url('assets/project11.png');
+    background-position: 40% 35%;
+}
+
+.project12 {
+    background-image: url('assets/project12.png');
+    background-position: 50% 25%;
+}
+
+.project13 {
+    background-image: url('assets/project12.png');
+    background-position: 50% 25%;
+}
+
+.project14 {
+    background-image: url('assets/project12.png');
+    background-position: 50% 25%;
+}
+
+.project15 {
+    background-image: url('assets/project12.png');
+    background-position: 50% 25%;
+}
+
+.about {
+    background-color: #f2f2f2;
+    padding-top: 45px;
+    padding-bottom: 64px;
+    padding-left: 38px;
+    padding-right: 33px;
+    border-bottom: 6px solid #ffffff;
+}
+
+.about h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    margin: 25px 0;
+}
+
+.about>p {
+    font-size: 17.5px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+}
+
+.resume {
+    overflow: hidden;
+}
+
+.resume>img {
+    width: 300px;
+    height: 300px;
+}
+
+.resume h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+
+.resume p {
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 23px;
+}
+
+a {
+    margin-right: 5px;
+}
