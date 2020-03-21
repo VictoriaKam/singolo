@@ -105,7 +105,7 @@ nav li a {
     right: auto;
     z-index: 2;
     cursor: pointer;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 .cher_right {
@@ -115,7 +115,7 @@ nav li a {
     left: auto;
     z-index: 2;
     cursor: pointer;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 #iphone-ver {
