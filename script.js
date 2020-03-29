@@ -1,4 +1,7 @@
 const MENU = document.getElementById('menu');
+const SANDWICH = document.getElementById('sandwich');
+const NAVIGATION = document.querySelector('.navigation');
+const HEADING = document.querySelector('h1');
 
 let items = document.querySelectorAll('.slider');
 let currentItem = 0;
@@ -26,13 +29,30 @@ MENU.addEventListener('click', (event) => {
     }
 });
 
+// Появление панели меню слева при нажатии на "сендвич" для устройств 375px <= width < 768px
+SANDWICH.addEventListener('click', (event) => {
+    NAVIGATION.classList.toggle('nav-active');
+    SANDWICH.classList.toggle('rotation');
+    HEADING.classList.toggle('heading-transformation');
+    MENU.addEventListener('click', (event) => {
+        if (event.target.tagName == "A") {
+            MENU.querySelectorAll('a').forEach(el => el.classList.remove('active'));
+            event.target.classList.add('active');
+            NAVIGATION.classList.remove('nav-active');
+            SANDWICH.classList.remove('rotation');
+        }
+    });
+
+});
+
+// Активизация ссылок при скролле
 window.addEventListener('scroll', function() {
     let currentScroll = window.pageYOffset;
     let header = 90;
     let servicesPos = document.getElementById("services").offsetTop - header;
     let portfolioPos = document.getElementById("portfolio").offsetTop - header;
     let aboutPos = document.getElementById("about").offsetTop - header;
-    let contactsPos = document.getElementById("singolo3_main").offsetTop - header;
+    let contactsPos = document.getElementById("quote").offsetTop - header;
 
     if (currentScroll < servicesPos) {
         activateMenuElem(0);
